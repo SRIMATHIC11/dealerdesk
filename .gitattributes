@@ -1,0 +1,8 @@
+*.py text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+data/** -text
+smoke_test.py -text
+API_CONTRACT.md -text

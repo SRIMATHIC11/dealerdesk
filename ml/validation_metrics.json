@@ -1,0 +1,639 @@
+{
+  "selection_origins": [
+    "2026-06-01",
+    "2026-06-29",
+    "2026-07-27"
+  ],
+  "untouched_holdout_origin": "2026-08-31",
+  "selection_mean_mae": {
+    "last": 12.826754385964913,
+    "seasonal52": 11.817982456140351,
+    "mean4": 10.050438596491228,
+    "mean8": 9.462171052631579,
+    "mean12": 9.329312865497075,
+    "adjusted8": 7.495984155213241,
+    "adjusted12": 7.464689981989428,
+    "ridge2": 6.643430450768041,
+    "ridge12": 6.6839468643175195,
+    "ridge40": 7.044689620658031
+  },
+  "holdout": {
+    "mae": 6.340854431328879,
+    "rmse": 10.451065753255929,
+    "wape": 0.18608523642931413,
+    "rows": 160
+  },
+  "baseline_holdout_wape": {
+    "last": 0.34409391049156274,
+    "seasonal52": 0.36005135730007337,
+    "mean4": 0.25706162876008803,
+    "mean8": 0.26210564930300806,
+    "mean12": 0.26656884323795554
+  },
+  "worst_holdout_skus": [
+    {
+      "sku": "GRP-1024",
+      "methods": [
+        "last",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 24.984,
+      "actual_units": 276.0,
+      "forecast_units": 228.0429
+    },
+    {
+      "sku": "FIL-1051",
+      "methods": [
+        "ridge2",
+        "adjusted8"
+      ],
+      "training_weeks": 100,
+      "mae": 13.9119,
+      "actual_units": 315.0,
+      "forecast_units": 325.5902
+    },
+    {
+      "sku": "BRK-1019",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 12.2377,
+      "actual_units": 271.0,
+      "forecast_units": 299.0128
+    },
+    {
+      "sku": "ELE-1095",
+      "methods": [
+        "ridge12",
+        "ridge40"
+      ],
+      "training_weeks": 100,
+      "mae": 11.7932,
+      "actual_units": 166.0,
+      "forecast_units": 149.9637
+    },
+    {
+      "sku": "FIL-1031",
+      "methods": [
+        "ridge40",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 11.2301,
+      "actual_units": 318.0,
+      "forecast_units": 276.4203
+    },
+    {
+      "sku": "CHN-1071",
+      "methods": [
+        "ridge12",
+        "ridge40"
+      ],
+      "training_weeks": 100,
+      "mae": 11.0198,
+      "actual_units": 148.0,
+      "forecast_units": 149.5136
+    },
+    {
+      "sku": "ELE-1057",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 10.9603,
+      "actual_units": 215.0,
+      "forecast_units": 252.0097
+    },
+    {
+      "sku": "ELE-1012",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 10.553,
+      "actual_units": 165.0,
+      "forecast_units": 207.2118
+    },
+    {
+      "sku": "ELE-1047",
+      "methods": [
+        "mean8",
+        "mean12"
+      ],
+      "training_weeks": 100,
+      "mae": 10.5104,
+      "actual_units": 121.0,
+      "forecast_units": 110.0833
+    },
+    {
+      "sku": "ELE-1043",
+      "methods": [
+        "adjusted8",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 9.8667,
+      "actual_units": 266.0,
+      "forecast_units": 258.8033
+    },
+    {
+      "sku": "ELE-1080",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 9.686,
+      "actual_units": 244.0,
+      "forecast_units": 233.7501
+    },
+    {
+      "sku": "CHN-1010",
+      "methods": [
+        "adjusted12",
+        "adjusted8"
+      ],
+      "training_weeks": 100,
+      "mae": 7.8479,
+      "actual_units": 101.0,
+      "forecast_units": 129.1306
+    },
+    {
+      "sku": "CHN-1011",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 7.4378,
+      "actual_units": 139.0,
+      "forecast_units": 145.0827
+    },
+    {
+      "sku": "CHN-1014",
+      "methods": [
+        "adjusted12",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 7.3172,
+      "actual_units": 206.0,
+      "forecast_units": 189.1981
+    },
+    {
+      "sku": "CHN-1052",
+      "methods": [
+        "ridge2",
+        "ridge40"
+      ],
+      "training_weeks": 100,
+      "mae": 7.1255,
+      "actual_units": 109.0,
+      "forecast_units": 119.4564
+    },
+    {
+      "sku": "BRK-1095",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 6.5491,
+      "actual_units": 148.0,
+      "forecast_units": 142.8927
+    },
+    {
+      "sku": "CHN-1006",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 2,
+      "mae": 6.25,
+      "actual_units": 111.0,
+      "forecast_units": 86.0
+    },
+    {
+      "sku": "GRP-1011",
+      "methods": [
+        "ridge12",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 5.6799,
+      "actual_units": 245.0,
+      "forecast_units": 222.6824
+    },
+    {
+      "sku": "BRK-1036",
+      "methods": [
+        "ridge12",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 5.5597,
+      "actual_units": 109.0,
+      "forecast_units": 131.2388
+    },
+    {
+      "sku": "BRK-1085",
+      "methods": [
+        "adjusted12",
+        "adjusted8"
+      ],
+      "training_weeks": 100,
+      "mae": 5.5,
+      "actual_units": 296.0,
+      "forecast_units": 297.0833
+    },
+    {
+      "sku": "BRK-1112",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 5.4245,
+      "actual_units": 196.0,
+      "forecast_units": 202.9665
+    },
+    {
+      "sku": "ELE-1024",
+      "methods": [
+        "ridge40",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.7223,
+      "actual_units": 62.0,
+      "forecast_units": 78.9936
+    },
+    {
+      "sku": "GRP-1017",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.5442,
+      "actual_units": 76.0,
+      "forecast_units": 76.3106
+    },
+    {
+      "sku": "ELE-1019",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.4105,
+      "actual_units": 42.0,
+      "forecast_units": 59.6419
+    },
+    {
+      "sku": "FIL-1016",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.3101,
+      "actual_units": 94.0,
+      "forecast_units": 105.9153
+    },
+    {
+      "sku": "ELE-1058",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.2152,
+      "actual_units": 142.0,
+      "forecast_units": 153.1772
+    },
+    {
+      "sku": "CHN-1039",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 4.1352,
+      "actual_units": 132.0,
+      "forecast_units": 129.0625
+    },
+    {
+      "sku": "CHN-1073",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 3.7645,
+      "actual_units": 85.0,
+      "forecast_units": 95.0041
+    },
+    {
+      "sku": "OIL-1010",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 3.5029,
+      "actual_units": 60.0,
+      "forecast_units": 65.5241
+    },
+    {
+      "sku": "BRK-1060",
+      "methods": [
+        "ridge12",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 3.2721,
+      "actual_units": 65.0,
+      "forecast_units": 60.6867
+    },
+    {
+      "sku": "FIL-1041",
+      "methods": [
+        "ridge12",
+        "ridge40"
+      ],
+      "training_weeks": 100,
+      "mae": 2.8843,
+      "actual_units": 76.0,
+      "forecast_units": 82.5153
+    },
+    {
+      "sku": "FIL-1032",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 2.7258,
+      "actual_units": 69.0,
+      "forecast_units": 64.041
+    },
+    {
+      "sku": "BRK-1105",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 2,
+      "mae": 2.25,
+      "actual_units": 129.0,
+      "forecast_units": 124.0
+    },
+    {
+      "sku": "BRK-1021",
+      "methods": [
+        "ridge40",
+        "adjusted8"
+      ],
+      "training_weeks": 100,
+      "mae": 1.9616,
+      "actual_units": 48.0,
+      "forecast_units": 44.449
+    },
+    {
+      "sku": "OIL-1004",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 1.8705,
+      "actual_units": 38.0,
+      "forecast_units": 35.8083
+    },
+    {
+      "sku": "BRK-1090",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 1.4745,
+      "actual_units": 162.0,
+      "forecast_units": 160.159
+    },
+    {
+      "sku": "ELE-1031",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 0.8964,
+      "actual_units": 0.0,
+      "forecast_units": 3.5857
+    },
+    {
+      "sku": "ELE-1006",
+      "methods": [
+        "ridge12",
+        "ridge2"
+      ],
+      "training_weeks": 100,
+      "mae": 0.4998,
+      "actual_units": 2.0,
+      "forecast_units": 2.781
+    },
+    {
+      "sku": "BRK-1088",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 0.496,
+      "actual_units": 2.0,
+      "forecast_units": 2.53
+    },
+    {
+      "sku": "GRP-1043",
+      "methods": [
+        "ridge2",
+        "ridge12"
+      ],
+      "training_weeks": 100,
+      "mae": 0.2536,
+      "actual_units": 3.0,
+      "forecast_units": 3.7162
+    }
+  ],
+  "selected_methods": {
+    "BRK-1019": [
+      "ridge2",
+      "ridge12"
+    ],
+    "BRK-1021": [
+      "ridge40",
+      "adjusted8"
+    ],
+    "BRK-1036": [
+      "ridge12",
+      "ridge2"
+    ],
+    "BRK-1060": [
+      "ridge12",
+      "ridge2"
+    ],
+    "BRK-1085": [
+      "adjusted12",
+      "adjusted8"
+    ],
+    "BRK-1088": [
+      "ridge2",
+      "ridge12"
+    ],
+    "BRK-1090": [
+      "ridge2",
+      "ridge12"
+    ],
+    "BRK-1095": [
+      "ridge2",
+      "ridge12"
+    ],
+    "BRK-1105": [
+      "ridge2",
+      "ridge12"
+    ],
+    "BRK-1112": [
+      "ridge2",
+      "ridge12"
+    ],
+    "CHN-1006": [
+      "ridge2",
+      "ridge12"
+    ],
+    "CHN-1010": [
+      "adjusted12",
+      "adjusted8"
+    ],
+    "CHN-1011": [
+      "ridge2",
+      "ridge12"
+    ],
+    "CHN-1014": [
+      "adjusted12",
+      "ridge2"
+    ],
+    "CHN-1039": [
+      "ridge2",
+      "ridge12"
+    ],
+    "CHN-1052": [
+      "ridge2",
+      "ridge40"
+    ],
+    "CHN-1071": [
+      "ridge12",
+      "ridge40"
+    ],
+    "CHN-1073": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1006": [
+      "ridge12",
+      "ridge2"
+    ],
+    "ELE-1012": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1019": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1024": [
+      "ridge40",
+      "ridge12"
+    ],
+    "ELE-1031": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1043": [
+      "adjusted8",
+      "ridge2"
+    ],
+    "ELE-1047": [
+      "mean8",
+      "mean12"
+    ],
+    "ELE-1057": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1058": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1080": [
+      "ridge2",
+      "ridge12"
+    ],
+    "ELE-1095": [
+      "ridge12",
+      "ridge40"
+    ],
+    "FIL-1016": [
+      "ridge2",
+      "ridge12"
+    ],
+    "FIL-1031": [
+      "ridge40",
+      "ridge12"
+    ],
+    "FIL-1032": [
+      "ridge2",
+      "ridge12"
+    ],
+    "FIL-1041": [
+      "ridge12",
+      "ridge40"
+    ],
+    "FIL-1051": [
+      "ridge2",
+      "adjusted8"
+    ],
+    "GRP-1011": [
+      "ridge12",
+      "ridge2"
+    ],
+    "GRP-1017": [
+      "ridge2",
+      "ridge12"
+    ],
+    "GRP-1024": [
+      "last",
+      "ridge12"
+    ],
+    "GRP-1043": [
+      "ridge2",
+      "ridge12"
+    ],
+    "OIL-1004": [
+      "ridge2",
+      "ridge12"
+    ],
+    "OIL-1010": [
+      "ridge2",
+      "ridge12"
+    ]
+  },
+  "future_actuals_used": false,
+  "note": "Promotion flags and published festival dates are known covariates. Model selection excludes the final holdout."
+}
